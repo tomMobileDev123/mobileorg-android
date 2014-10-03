@@ -12,7 +12,7 @@ public class MobileOrgApplication extends Application {
     @Override
     public void onCreate() {
     	instance = this;
-		SyncService.startAlarm(getApplicationContext());
+      //SyncService.startAlarm(getApplicationContext());
     }
     
     public static Context getContext() {
